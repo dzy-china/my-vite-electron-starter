@@ -1,0 +1,31 @@
+{
+  "name": "b2ve-starter",
+  "private": true,
+  "version": "0.0.1",
+  "description": "基于b2ve( builder、vite、vue、 electron )构建的电脑软件起步开发环境",
+  "main": "electron/main.js",
+  "scripts": {
+    "electron:serve": "node command/serve.js",
+    "electron:build": "node command/build.js"
+  },
+  "build": {
+    "extends": "electron-builder.config.json"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "element-plus": "^2.7.2",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "concurrently": "^8.2.2",
+    "electron": "^30.0.3",
+    "electron-builder": "^24.13.3",
+    "unplugin-auto-import": "^0.17.6",
+    "unplugin-vue-components": "^0.27.0",
+    "vite": "^5.2.0",
+    "wait-on": "^7.2.0"
+  }
+}

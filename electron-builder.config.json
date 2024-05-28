@@ -1,0 +1,35 @@
+{
+  "productName":"您的app名称",
+  "copyright":"Shanghai Huisheng Internet Technology Co., Ltd.",
+  "directories": {
+    "output": "build"
+  },
+  "extraResources":[
+    {
+      "from":"./public/images/",
+      "to": "images"
+    }
+  ],
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "installerIcon": "./public/images/logo.ico",
+    "uninstallerIcon": "./public/images/logo.ico",
+    "installerHeaderIcon": "./public/images/logo.ico",
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "您的app名称"
+  },
+
+  "win": {
+    "icon": "./public/images/logo.ico"
+  },
+
+  "linux": {
+    "icon": "./public/images/logo.ico"
+  },
+
+  "mac": {
+    "icon": "./public/images/logo.ico"
+  }
+}
